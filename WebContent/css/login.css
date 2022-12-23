@@ -1,0 +1,73 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+
+/*login*/
+.container{
+	width:100%;
+	background-color: #76ef56;
+	background: url(../images/test1.jpg) no-repeat 50%/cover;
+}
+.container .login{
+	display: flex;
+	justify-content: center;
+	padding : 20px;
+	box-sizing: border-box;
+}
+.container .login .login-con{
+	width:1200px;
+	height:auto;
+	border : 0px solid #000000;
+	box-sizing: border-box;
+/* 	background-color: #ffffff; */
+/* 	text-align: center;
+	line-height: auto;
+	font-size:50px; */
+	display:flex;
+	justify-content: center;
+}
+.container .login .login-con form{
+	width: 450px;
+	border : 0px solid #000000;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	padding :20px;
+	box-sizing: border-box;
+}
+/*테이블*/
+table, th, td{
+  border: 0px solid #ffffff;
+  border-collapse: collapse;
+}
+.container .login .login-con table{
+  width: 100%;
+}
+.container .login .login-con table tr th{
+  background-color: #1f1291;
+  color: #ffffff;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.container .login .login-con table tr td{
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.container .login .login-con table tr:nth-child(8) td textarea{
+  width: 100%;
+  resize: none;
+}
+.container .login .login-con table tr.lastTr td{
+  width: 100%;
+  background-color: #0c8bca;
+  text-align: center;
+}
+.container .login .login-con table tr.lastTr td input{
+  width: 100px;
+  padding: 5px 10px;
+}
+
+
+
+
